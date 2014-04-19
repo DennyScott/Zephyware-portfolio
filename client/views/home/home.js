@@ -1,6 +1,10 @@
 Meteor.subscribe('projects');
 Meteor.subscribe('profiles');
 
+/**
+ * [rendered description]
+ * @return {[type]} [description]
+ */
 Template.home.rendered = function () {
 	waypoints();
 	new WOW().init();
