@@ -2,7 +2,7 @@
   min-height: 100%;
   height: 10000px;
   /* Negative indent footer by its height */
-  margin: 0 auto -100px;
+  margin: 0 auto;
   /* Pad bottom by footer height */
   padding: 0 0 60px;
 }
@@ -14,7 +14,6 @@ body {
 }
 
 #main-content{
-	margin-top:50px;
 	min-height:100%;
 }
 
