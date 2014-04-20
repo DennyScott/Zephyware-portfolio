@@ -1,0 +1,44 @@
+<template name="projects">
+	<div id='projects-content'>
+		<div class="jumbotron">
+			<div class="center">
+				<h1 class="brand-name center">Zephyrware <small class="beta">Beta</small></h1>
+				<p><span class="center">Keep it Simple</span></p>
+			</div>
+		</div>
+		<nav class="col-xs-12 align-center who-list">
+			<a class="what selected" id="web">
+				Web
+			</a>
+			<a class="who" id="games">
+				Games
+			</a>
+			<a class="who" id="media">
+				Media
+			</a>
+		</nav>
+		<div id="web-content">
+			<div id="work-content">
+				{{#each web}}
+					{{> project}}
+				{{/each}}
+			</div>
+		</div>
+		<div id="game-content">
+			<div id="work-content">
+				{{#each game}}
+					{{> project}}
+				{{/each}}
+			</div>
+		</div>
+
+		<div id="media-content">
+			<div id="work-content">
+				{{#each media}}
+					{{> project}}
+				{{/each}}
+			</div>
+		</div>
+	</div>
+
+</template>
