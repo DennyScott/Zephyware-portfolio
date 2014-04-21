@@ -1,11 +1,11 @@
 <template name="home">
-	<div class="content-wrapper fadeIn">
+	<div class="content-wrapper" id="content-wrapper">
 		<section id="slide-1" class="waterpainting bcg">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 overlay hsContainer">
 						<div class="brand-overlay hsContent">
-							<h1 class="brand-name">Zephyrware</h1>
+							<h1 class="brand-name">ZephyrWare</h1>
 						</div>
 					</div>
 				</div>
@@ -37,14 +37,14 @@
 							Denny Scott
 							<br>
 							<div class = "col-xs-12">
-							<div class="personal-links wow bounceInUp">
-								<div class="other-info col-md-offset-2 col-md-2"><a href="{{github}}" class="user-link" ><i class="fa fa-github"></i><div class="shrink"><small>Github</small></div></a></div>
-								<div class="other-info  col-md-2"><a href="{{twitter}}" class="user-link"><i class="fa fa-twitter"></i><div class="shrink"><small>Twitter</small></div></a></div>
-								<div class="other-info  col-md-2"><a href="{{getResume}}" class="user-link"><i class="fa fa-indent"></i><div class="shrink"><small>Resume</small></div></a></div>
-								<div class="other-info  col-md-2"><a href="{{getCV}}" class="user-link"><i class="fa fa-paste"></i><div class="shrink"><small>CV</small></div></a></div>
+								<div class="personal-links wow bounceInUp">
+									<div class="other-info col-md-offset-2 col-md-2"><a href="{{github}}" class="user-link" ><i class="fa fa-github"></i><div class="shrink"><small>Github</small></div></a></div>
+									<div class="other-info  col-md-2"><a href="{{twitter}}" class="user-link"><i class="fa fa-twitter"></i><div class="shrink"><small>Twitter</small></div></a></div>
+									<div class="other-info  col-md-2"><a href="{{getResume}}" class="user-link"><i class="fa fa-laptop"></i><div class="shrink"><small>Resume</small></div></a></div>
+									<div class="other-info  col-md-2"><a href="{{getCV}}" class="user-link"><i class="fa fa-paste"></i><div class="shrink"><small>CV</small></div></a></div>
+								</div>
 							</div>
 						</div>
-					</div>
 					</div>
 
 					<div class="col-xs-6">
@@ -56,17 +56,40 @@
 							Travis Scott
 							<br>
 							<div class = "col-xs-12">
-							<div class="personal-links wow bounceInUp">
-								<div class="other-info col-md-offset-2 col-md-2"><a href="{{github}}" class="user-link" ><i class="fa fa-github"></i><div class="shrink"><small>Github</small></div></a></div>
-								<div class="other-info  col-md-2"><a href="{{twitter}}" class="user-link"><i class="fa fa-twitter"></i><div class="shrink"><small>Twitter</small></div></a></div>
-								<div class="other-info  col-md-2"><a href="{{getResume}}" class="user-link"><i class="fa fa-indent"></i><div class="shrink"><small>Resume</small></div></a></div>
-								<div class="other-info  col-md-2"><a href="{{getCV}}" class="user-link"><i class="fa fa-paste"></i><div class="shrink"><small>CV</small></div></a></div>
+								<div id="blog-hook" class="personal-links wow bounceInUp">
+									<div class="other-info col-md-offset-2 col-md-2"><a href="{{github}}" class="user-link" ><i class="fa fa-github"></i><div class="shrink"><small>Github</small></div></a></div>
+									<div class="other-info  col-md-2"><a href="{{twitter}}" class="user-link"><i class="fa fa-twitter"></i><div class="shrink"><small>Twitter</small></div></a></div>
+									<div class="other-info  col-md-2"><a href="{{getResume}}" class="user-link"><i class="fa fa-laptop"></i><div class="shrink"><small>Resume</small></div></a></div>
+									<div class="other-info  col-md-2"><a href="{{getCV}}" class="user-link"><i class="fa fa-paste"></i><div class="shrink"><small>CV</small></div></a></div>
+								</div>
 							</div>
-						</div>
 						</div>
 					</div>
 				</div>
+				<div id="OurBlog" class="OurBlog">
+				<div class="title_bar">
+					Check out our Blog!
+					<div id="x_button" class="x">×</div>
+				</div>
+				<div class="blog_content col-xs-12">
+                <!-- Your cute face -->
+                <a id="avatar" class="avatar col-xs-2" style="background-image: url(/images/Wind.jpg);" target="_top" href="https://www.tumblr.com/register/follow/d">
+                    <img id="avatar_img" src="/images/Wind.jpg" width="38" height="38" alt="">
+                </a>
+
+                <!-- Name/title -->
+                <a id="name_title" class="blog_name_title col-xs-7" target="_top" href="https://www.tumblr.com/register/follow/d">
+                    <span id="name" class="blog_name">Web & Games</span>
+                    <span id="title" class="blog_title">blog.zephyrware.com</span>
+                </a>
+
+                <!-- Follow button -->
+                <a id="btn_follow" class="blog_button blue follow" target="_top" data-translation="follow" href=""><i class="fa fa-pencil"></i>     See Blog</a>
+            </div>
+			</div>
 			</section>
+
+			
 
 			<section id="ourprojects" class="grey">
 				<div class='container'>
@@ -76,249 +99,461 @@
 						</div>
 					</div>
 					<div class="col-xs-12 demos">
+						<nav class="align-center who-list">
+							<a class="what selected" id="web">
+								Web
+							</a>
+							<a class="who" id="games">
+								Games
+							</a>
+						</nav>
+						<div id="web-content">
+							<div id="work-content">
 
-						<!--First Project -->
-						<div class="project-content row">
-						<div class="col-xs-7 wow slideInLeft">
-							<div class="preview pleft transit">
-								<div class="phone right">
-									<div class="top">
-										<div class="camera">
-											<span></span>
-										</div>
-										<div class="speaker">
-											<span></span>
-										</div>
-									</div>
-									<img src="/images/ConcloudMobile.png">
-									<div class="bottom"><div><span></span></div></div>
-								</div>
-								<div class="browser cond">
-									<div class="top">
-										<ul><li></li><li></li><li></li></ul>
-										<span>Concord.com/Concloud</span>
-									</div>
-									<img src="/images/ConcloudDesktop.png">
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-5 wow slideInRight infoside">
-							<div class="info iright transit">
-								<h1>Concloud</h1>
-								<div class="platform">
-									<h6 class="caps">Platform:</h6>
-									<img src="images/icons/pweb.png">
-									<img src="images/icons/pmobile.png"><span>
-									<img src="images/icons/ptablet.png"></span></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									<a class="button studylink" data-pathname="threadmeup">View Project</a>
-									<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
-								</div>
-							</div>
-						</div>
 
-							<!-- End Of Project -->
 
-							<hr>
-
-							<!--Second Project -->
-							<div class="project-content row">
-						<div class="col-xs-5 wow slideInLeft infoside">
-							<div class="info iright transit">
-								<h1>Concloud</h1>
-								<div class="platform">
-									<h6 class="caps">Platform:</h6>
-									<img src="images/icons/pweb.png">
-									<img src="images/icons/pmobile.png"><span>
-									<img src="images/icons/ptablet.png"></span></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									<a class="button studylink" data-pathname="threadmeup">View Project</a>
-									<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
-								</div>
-							</div>
-
-							<div class="col-xs-7 wow slideInRight">
-							<div class="preview pleft transit">
-								<div class="phone right">
-									<div class="top">
-										<div class="camera">
-											<span></span>
-										</div>
-										<div class="speaker">
-											<span></span>
+								<!--First Project -->
+								<div class="project-content row">
+									<div class="col-xs-7 wow slideInLeft">
+										<div class="preview pleft transit">
+											<div class="phone right">
+												<div class="top">
+													<div class="camera">
+														<span></span>
+													</div>
+													<div class="speaker">
+														<span></span>
+													</div>
+												</div>
+												<img src="/images/ConcloudMobile.png">
+												<div class="bottom"><div><span></span></div></div>
+											</div>
+											<div class="browser cond">
+												<div class="top">
+													<ul><li></li><li></li><li></li></ul>
+													<span>Concord.com/Concloud</span>
+												</div>
+												<img src="/images/ConcloudDesktop.png">
+											</div>
 										</div>
 									</div>
-									<img src="/images/ConcloudMobile.png">
-									<div class="bottom"><div><span></span></div></div>
-								</div>
-								<div class="browser cond">
-									<div class="top">
-										<ul><li></li><li></li><li></li></ul>
-										<span>Concord.com/Concloud</span>
-									</div>
-									<img src="/images/ConcloudDesktop.png">
-								</div>
-							</div>
-						</div>
-					</div>
-							<!-- End Of Project -->
-
-							<hr>
-
-							<!--Third Project -->
-						<div class="project-content row">
-						<div class="col-xs-7 wow slideInLeft">
-							<div class="preview pleft transit">
-								<div class="phone right">
-									<div class="top">
-										<div class="camera">
-											<span></span>
-										</div>
-										<div class="speaker">
-											<span></span>
+									<div class="col-xs-5 wow slideInRight infoside">
+										<div class="info iright transit">
+											<h1>Concloud</h1>
+											<div class="platform">
+												<h6 class="caps">Platform:</h6>
+												<img src="images/icons/pweb.png">
+												<img src="images/icons/pmobile.png">
+												<img src="images/icons/ptablet.png"></div>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+												<a class="button studylink">View Project</a>
+												<a class="button livelink" href="http://concloudtest.meteor.com" target="_blank">Visit Live Site</a>
+											</div>
 										</div>
 									</div>
-									<img src="/images/ConcloudMobile.png">
-									<div class="bottom"><div><span></span></div></div>
-								</div>
-								<div class="browser cond">
-									<div class="top">
-										<ul><li></li><li></li><li></li></ul>
-										<span>Concord.com/Concloud</span>
-									</div>
-									<img src="/images/ConcloudDesktop.png">
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-5 wow slideInRight infoside">
-							<div class="info iright transit">
-								<h1>Concloud</h1>
-								<div class="platform">
-									<h6 class="caps">Platform:</h6>
-									<img src="images/icons/pweb.png">
-									<img src="images/icons/pmobile.png"><span>
-									<img src="images/icons/ptablet.png"></span></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									<a class="button studylink" data-pathname="threadmeup">View Project</a>
-									<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
-								</div>
-							</div>
-						</div>
 
-							<!-- End Of Project -->
+									<!-- End Of Project -->
 
-							<hr>
+									<hr>
 
-							<!--Fourth Project -->
-							<div class="project-content row">
-						<div class="col-xs-5 wow slideInLeft infoside">
-							<div class="info iright transit">
-								<h1>Concloud</h1>
-								<div class="platform">
-									<h6 class="caps">Platform:</h6>
-									<img src="images/icons/pweb.png">
-									<img src="images/icons/pmobile.png"><span>
-									<img src="images/icons/ptablet.png"></span></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-									<a class="button studylink" data-pathname="threadmeup">View Project</a>
-									<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
-								</div>
-							</div>
+									<!--Second Project -->
+									<div class="project-content row">
+										<div class="col-xs-5 wow slideInLeft infoside">
+											<div class="info iright transit">
+												<h1>University of Winnipeg</h1>
+												<div class="platform">
+													<h6 class="caps">Platform:</h6>
+													<img src="images/icons/pweb.png">
+													<img src="images/icons/pmobile.png">
+													<img src="images/icons/ptablet.png"></div>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+													<a class="button studylink" data-pathname="threadmeup">View Project</a>
+													<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+												</div>
+											</div>
 
-							<div class="col-xs-7 wow slideInRight">
-							<div class="preview pleft transit">
-								<div class="phone right">
-									<div class="top">
-										<div class="camera">
-											<span></span>
+											<div class="col-xs-7 wow slideInRight">
+												<div class="preview pleft transit">
+													<div class="phone ">
+														<div class="top">
+															<div class="camera">
+																<span></span>
+															</div>
+															<div class="speaker">
+																<span></span>
+															</div>
+														</div>
+														<img src="/images/ConcloudMobile.png">
+														<div class="bottom"><div><span></span></div></div>
+													</div>
+													<div class="browser cond right">
+														<div class="top">
+															<ul><li></li><li></li><li></li></ul>
+															<span>Concord.com/Concloud</span>
+														</div>
+														<img src="/images/ConcloudDesktop.png">
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="speaker">
-											<span></span>
-										</div>
+										<!-- End Of Project -->
+
+										<hr>
+
+										<!--Third Project -->
+										<div class="project-content row">
+											<div class="col-xs-7 wow slideInLeft">
+												<div class="preview pleft transit">
+													<div class="phone right">
+														<div class="top">
+															<div class="camera">
+																<span></span>
+															</div>
+															<div class="speaker">
+																<span></span>
+															</div>
+														</div>
+														<img src="/images/ConcloudMobile.png">
+														<div class="bottom"><div><span></span></div></div>
+													</div>
+													<div class="browser cond">
+														<div class="top">
+															<ul><li></li><li></li><li></li></ul>
+															<span>Concord.com/Concloud</span>
+														</div>
+														<img src="/images/ConcloudDesktop.png">
+													</div>
+												</div>
+											</div>
+											<div class="col-xs-5 wow slideInRight infoside">
+												<div class="info iright transit">
+													<h1>Global Garden</h1>
+													<div class="platform">
+														<h6 class="caps">Platform:</h6>
+														<img src="images/icons/pweb.png">
+														<img src="images/icons/pmobile.png"><span>
+														<img src="images/icons/ptablet.png"></span></div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+														<a class="button studylink" data-pathname="threadmeup">View Project</a>
+														<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+													</div>
+												</div>
+											</div>
+
+											<!-- End Of Project -->
+
+											<hr>
+
+											<!--Fourth Project -->
+											<div class="project-content row">
+												<div class="col-xs-5 wow slideInLeft infoside">
+													<div class="info iright transit">
+														<h1>Stride</h1>
+														<div class="platform">
+															<h6 class="caps">Platform:</h6>
+															<img src="images/icons/pweb.png"><span>
+															<img src="images/icons/pmobile.png"></span><span>
+															<img src="images/icons/ptablet.png"></span></div>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+															<a class="button studylink" data-pathname="threadmeup">View Project</a>
+															<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+														</div>
+													</div>
+
+													<div class="col-xs-7 wow slideInRight">
+														<div class="preview pleft transit">
+															
+															<div class="browser right">
+																<div class="top">
+																	<ul><li></li><li></li><li></li></ul>
+																	<span>Concord.com/Concloud</span>
+																</div>
+																<img src="/images/ConcloudDesktop.png">
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- End Of Project -->
+
+												<hr>
+
+												<!--Fifth Project -->
+												<div class="project-content row">
+													<div class="col-xs-7 wow slideInLeft">
+														<div class="preview pleft transit">
+											
+															<div class="browser">
+																<div class="top">
+																	<ul><li></li><li></li><li></li></ul>
+																	<span>Concord.com/Concloud</span>
+																</div>
+																<img src="/images/ConcloudDesktop.png">
+															</div>
+														</div>
+													</div>
+													<div class="col-xs-5 wow slideInRight infoside">
+														<div class="info iright transit">
+															<h1>Police Commission</h1>
+															<div class="platform">
+																<h6 class="caps">Platform:</h6>
+																<img src="images/icons/pweb.png"><span>
+																<img src="images/icons/pmobile.png"></span><span>
+																<img src="images/icons/ptablet.png"></span>
+															</div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+																<a class="button studylink" data-pathname="threadmeup">View Project</a>
+																<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+															</div>
+														</div>
+													</div>
+
+													<!-- End Of Project -->
+												</div>
+											</div>
+											<!-- End of Web -->
+
+
+											<!--Games -->
+											<div id="game-content">
+												<div id="work-content">
+													<!--First Project -->
+													<div class="project-content row">
+														<div class="col-xs-7 wow slideInLeft">
+															<div class="preview pleft transit">
+																
+																<div class="browser">
+																	<div class="top">
+																		<ul><li></li><li></li><li></li></ul>
+																		<span>Concord.com/Concloud</span>
+																	</div>
+																	<img src="/images/ConcloudDesktop.png">
+																</div>
+															</div>
+														</div>
+														<div class="col-xs-5 wow slideInRight infoside">
+															<div class="info iright transit">
+																<h1>Code Jam</h1>
+																<div class="platform">
+																	<h6 class="caps">Platform:</h6>
+																	<img src="images/icons/pweb.png"><span>
+																<img src="images/icons/pmobile.png"></span><span>
+																<img src="images/icons/ptablet.png"></span>
+															</div>
+																	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+																	<a class="button studylink">View Project</a>
+																	<a class="button livelink" href="http://concloudtest.meteor.com" target="_blank">Visit Live Site</a>
+																</div>
+															</div>
+														</div>
+
+														<!-- End Of Project -->
+
+														<hr>
+
+														<!--Second Project -->
+														<div class="project-content row">
+															<div class="col-xs-5 wow slideInLeft infoside">
+																<div class="info iright transit">
+																	<h1>Mega Man Prototype</h1>
+																	<div class="platform">
+																		<h6 class="caps">Platform:</h6>
+																		<img src="images/icons/pweb.png"><span>
+																<img src="images/icons/pmobile.png"></span><span>
+																<img src="images/icons/ptablet.png"></span>
+															</div>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+																		<a class="button studylink" data-pathname="threadmeup">View Project</a>
+																		<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+																	</div>
+																</div>
+
+																<div class="col-xs-7 wow slideInRight">
+																	<div class="preview pleft transit">
+																	
+																		<div class="browser right">
+																			<div class="top">
+																				<ul><li></li><li></li><li></li></ul>
+																				<span>Concord.com/Concloud</span>
+																			</div>
+																			<img src="/images/ConcloudDesktop.png">
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- End Of Project -->
+
+															<hr>
+
+															<!--Third Project -->
+															<div class="project-content row">
+																<div class="col-xs-7 wow slideInLeft">
+																	<div class="preview pleft transit">
+																		
+																		<div class="browser ">
+																			<div class="top">
+																				<ul><li></li><li></li><li></li></ul>
+																				<span>Concord.com/Concloud</span>
+																			</div>
+																			<img src="/images/ConcloudDesktop.png">
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xs-5 wow slideInRight infoside">
+																	<div class="info iright transit">
+																		<h1>Neutropia</h1>
+																		<div class="platform">
+																			<h6 class="caps">Platform:</h6>
+																			<img src="images/icons/pweb.png"><span>
+																<img src="images/icons/pmobile.png"></span><span>
+																<img src="images/icons/ptablet.png"></span>
+															</div>
+																			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+																			<a class="button studylink" data-pathname="threadmeup">View Project</a>
+																			<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- End Of Project -->
+
+																<hr>
+
+														<!--Fourth Project -->
+														<div class="project-content row">
+															<div class="col-xs-5 wow slideInLeft infoside">
+																<div class="info iright transit">
+																	<h1>Archie</h1>
+																	<div class="platform">
+																		<h6 class="caps">Platform:</h6>
+																		<img src="images/icons/pweb.png"><span>
+																<img src="images/icons/pmobile.png"></span><span>
+																<img src="images/icons/ptablet.png"></span>
+															</div>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+																		<a class="button studylink" data-pathname="threadmeup">View Project</a>
+																		<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+																	</div>
+																</div>
+
+																<div class="col-xs-7 wow slideInRight">
+																	<div class="preview pleft transit">
+																		
+																		<div class="browser  right">
+																			<div class="top">
+																				<ul><li></li><li></li><li></li></ul>
+																				<span>Concord.com/Concloud</span>
+																			</div>
+																			<img src="/images/ConcloudDesktop.png">
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- End Of Project -->
+
+															<hr>
+
+															<!--Fifth Project -->
+															<div class="project-content row">
+																<div class="col-xs-7 wow slideInLeft">
+																	<div class="preview pleft transit">
+																		
+																		<div class="browser">
+																			<div class="top">
+																				<ul><li></li><li></li><li></li></ul>
+																				<span>Concord.com/Concloud</span>
+																			</div>
+																			<img src="/images/ConcloudDesktop.png">
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xs-5 wow slideInRight infoside">
+																	<div class="info iright transit">
+																		<h1>Dimension Quaternion</h1>
+																		<div class="platform">
+																			<h6 class="caps">Platform:</h6>
+																			<img src="images/icons/pweb.png"><span>
+																<img src="images/icons/pmobile.png"></span><span>
+																<img src="images/icons/ptablet.png"></span>
+															</div>
+																			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+																			<a class="button studylink" data-pathname="threadmeup">View Project</a>
+																			<a class="button livelink" href="http://threadmeup.com/movements" target="_blank">Visit Live Site</a>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- End Of Project -->
+															</div>
+														</div>
+													</div>
+												</div>
+											</section>
+
+											<section id="contactus" class="white">
+												<div class='container'>
+													<div class="col-xs-12">
+														<div class="section-title">
+															Contact Us
+														</div>
+													</div>
+													<div id="contact-content">
+														<div class="col-xs-12 tag-center">
+															<span class="tagline">Discuss a project with us today!</span>
+
+														</div>
+														<div class="row container contact-container">
+															<ul class = "contact-types col-md-12 wow bounceInUp">
+																<li class="contact-method col-md-offset-2 col-md-2">
+																	<a href="mailto:moonlitestudio1@gmail.com">
+																		<i class="circle">
+																			<i class="fa fa-envelope"></i>
+																			<i class="pulse circle"> </i>
+																		</i>
+																		<h4 class="secondary">Email</h4>
+																	</a>
+
+																</li>
+
+																<li class="contact-method col-md-2">
+																	<i class="circle">
+																		<i class="fa fa-phone"></i>
+																	</i>
+																	<h4 class="secondary">Phone</h4>
+																</li>
+
+																<li class="contact-method col-md-2">
+																	<a href="https://twitter.com/MoonliteStudio1">
+																		<i class="circle">
+																			<i class="fa fa-twitter"></i>
+																			<i class="pulse circle"> </i>
+																		</i>
+																		<h4 class="secondary">Twitter</h4>
+																	</a>
+
+																</li>
+
+																<li class="contact-method col-md-2">
+																	<a href="#">
+																		<i class="circle">
+																			<i class="fa fa-calendar"></i>
+																			<i class="pulse circle"> </i>
+																		</i>
+																		<h4 class="secondary">Schedule</h4>
+																	</a>
+
+																</li>
+															</ul>
+														</div>
+
+														<div class="clear"></div>
+													</div>
+												</div>
+											</section>
+											<section class="black">
+												<footer>
+													Copyright &copy; Zephyware Winnipeg, Manitoba, All Rights Reserved
+												</footer>
+											</section>
+										</section>
 									</div>
-									<img src="/images/ConcloudMobile.png">
-									<div class="bottom"><div><span></span></div></div>
-								</div>
-								<div class="browser cond">
-									<div class="top">
-										<ul><li></li><li></li><li></li></ul>
-										<span>Concord.com/Concloud</span>
-									</div>
-									<img src="/images/ConcloudDesktop.png">
-								</div>
-							</div>
-						</div>
-					</div>
-							<!-- End Of Project -->
-						</div>
-					</div>
-				</section>
-
-				<section id="contactus" class="white">
-					<div class='container'>
-						<div class="col-xs-12">
-							<div class="section-title">
-								Contact Us
-							</div>
-						</div>
-						<div id="contact-content">
-							<div class="col-xs-12 tag-center">
-								<span class="tagline">Discuss a project with us today!</span>
-
-							</div>
-							<div class="row container contact-container">
-								<ul class = "contact-types col-md-12 wow bounceInUp">
-									<li class="contact-method col-md-offset-2 col-md-2">
-										<a href="mailto:moonlitestudio1@gmail.com">
-											<i class="circle">
-												<i class="fa fa-envelope"></i>
-												<i class="pulse circle"> </i>
-											</i>
-											<h4 class="secondary">Email</h4>
-										</a>
-
-									</li>
-
-									<li class="contact-method col-md-2">
-										<i class="circle">
-											<i class="fa fa-phone"></i>
-										</i>
-										<h4 class="secondary">Phone</h4>
-									</li>
-
-									<li class="contact-method col-md-2">
-										<a href="https://twitter.com/MoonliteStudio1">
-											<i class="circle">
-												<i class="fa fa-twitter"></i>
-												<i class="pulse circle"> </i>
-											</i>
-											<h4 class="secondary">Twitter</h4>
-										</a>
-
-									</li>
-
-									<li class="contact-method col-md-2">
-										<a href="#">
-											<i class="circle">
-												<i class="fa fa-calendar"></i>
-												<i class="pulse circle"> </i>
-											</i>
-											<h4 class="secondary">Schedule</h4>
-										</a>
-
-									</li>
-								</ul>
-							</div>
-
-							<div class="clear"></div>
-						</div>
-					</div>
-				</section>
-				<section class="black">
-				<footer>
-					Copyright &copy; Zephyware Winnipeg, Manitoba, All Rights Reserved
-				</footer>
-			</section>
-			</section>
-		</div>
-	</template>
+								</template>

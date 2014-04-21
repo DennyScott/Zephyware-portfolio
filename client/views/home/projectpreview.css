@@ -30,6 +30,11 @@ transition-duration: 0.6s;
 transition-delay: 0s;
 }
 
+.pleft .browser.cond.right{
+	margin-right:0;
+	margin-left:7.5%!important;
+}
+
 .phone {
 text-align: center;
 }
@@ -83,6 +88,10 @@ color: #8e9394;
 line-height: 26px;
 font-size: 12px;
 text-align: left;
+}
+
+.circle .fa-twitter{
+	color:white!important;
 }
 
 .browser img {
@@ -306,4 +315,8 @@ user-select: none;
 
 .demos hr {
 	border-color: #ccc
+}
+
+.studylink{
+	cursor:pointer;
 }

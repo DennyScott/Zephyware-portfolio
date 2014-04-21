@@ -14,7 +14,37 @@ Template.home.created = function () {
   })();
 };
 
+function setAsFixed() {
+  console.log("here");
+  fadeIn($('.OurBlog'));
+  $('.OurBlog').show();
+}
+
 Template.home.rendered = function () {
 		waypoints();
 	new WOW().init();
+fadeIn($('#content-wrapper'));
+
+$('#blog-hook').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', setAsFixed);
 };
+
+
+Template.home.events({
+  'click #games': function () {
+    $('#web-content').css("display","none");
+    $('#game-content').css("display","inline");
+    $('#games').addClass("selected");
+    $('#web').removeClass("selected");
+  },
+
+  'click #web': function () {
+    $('#web-content').css("display","inline");
+    $('#game-content').css("display","none");
+    $('#web').addClass("selected");
+    $('#games').removeClass("selected");
+  },
+
+  'click #x_button' : function() {
+      $('#OurBlog').hide();
+  }
+});

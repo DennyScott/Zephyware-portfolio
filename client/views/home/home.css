@@ -46,6 +46,27 @@
 	margin-top:25px;
 }
 
+.fa-github {
+	color:black;
+}
+
+.user-link{
+	cursor:pointer;
+}
+
+.fa-twitter{
+	color:#55acee;
+}
+
+.fa-laptop{
+	color:#aaa;
+}
+
+.shrink{
+	font-size:16px;
+	color: #666;
+}
+
 section#company-info{
 	position: absolute;
 	width:100%;
