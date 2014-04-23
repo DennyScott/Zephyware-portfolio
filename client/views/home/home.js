@@ -21,7 +21,7 @@ function setAsFixed() {
 }
 
 Template.home.rendered = function () {
-		waypoints();
+		// waypoints();
 	new WOW().init();
 fadeIn($('#content-wrapper'));
 
