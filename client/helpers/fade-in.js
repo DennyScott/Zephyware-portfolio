@@ -1,5 +1,5 @@
 fadeIn = function($content) {
-		$($content).delay(500).animate({opacity:1},700);
+		$($content).delay(1000).animate({opacity:1},2000);
 };
 
 removeFade = function(){
