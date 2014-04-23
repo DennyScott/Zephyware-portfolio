@@ -2,14 +2,9 @@
   "packages": {
     "bootstrap-3": {},
     "iron-router": {},
-    "accounts-entry": {},
     "fast-render": {},
     "wow": {},
-    "blog": {},
-    "voltage": {},
     "font-awesome": {},
-    "smartfile": {},
-    "spin": {},
-    "lightbox2": {}
+    "spin": {}
   }
 }

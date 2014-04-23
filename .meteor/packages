@@ -6,13 +6,9 @@
 standard-app-packages
 bootstrap-3
 iron-router
-accounts-entry
 accounts-ui
 accounts-password
 fast-render
 wow
-blog
-voltage
 font-awesome
-smartfile
 spin
