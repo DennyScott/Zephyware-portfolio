@@ -15,13 +15,11 @@ Template.home.created = function () {
 };
 
 function setAsFixed() {
-  console.log("here");
   fadeIn($('.OurBlog'));
   $('.OurBlog').show();
 }
 
 Template.home.rendered = function () {
-		// waypoints();
 	new WOW().init();
 fadeIn($('#content-wrapper'));
 

@@ -1,0 +1,815 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"setNickname"
+			],
+			[
+				"window",
+				"_windowOpen"
+			],
+			[
+				"windo",
+				"_windowOpen"
+			],
+			[
+				"op",
+				"_windowOpen"
+			],
+			[
+				"_shape",
+				"_shapeWithLabel"
+			],
+			[
+				"_int",
+				"_initalizeVariables"
+			],
+			[
+				"don",
+				"doneness"
+			],
+			[
+				"done",
+				"_donenessLabel"
+			],
+			[
+				"_food",
+				"_foodTypeImage"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"_init",
+				"_initalizeVariables"
+			],
+			[
+				"_ini",
+				"_initalizeVariables"
+			],
+			[
+				"add",
+				"addQuantityView"
+			],
+			[
+				"_anim",
+				"_animationsLibrary"
+			],
+			[
+				"pre",
+				"_prepareAnimation"
+			],
+			[
+				"boun",
+				"bounceDifference"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"req",
+				"requirements"
+			],
+			[
+				"_anima",
+				"_animationVerifications"
+			],
+			[
+				"time",
+				"timeSplit"
+			],
+			[
+				"_animation",
+				"_animationsLibrary"
+			],
+			[
+				"DEF",
+				"DEFAULT_VERTICAL_DISTANCE"
+			],
+			[
+				"_verf",
+				"_verifyOptions"
+			],
+			[
+				"_verif",
+				"_verifyCallback"
+			],
+			[
+				"_animationV",
+				"_animationVerifications"
+			],
+			[
+				"_animat",
+				"_animationsLibrary"
+			],
+			[
+				"original",
+				"originalRadius"
+			],
+			[
+				"food",
+				"foodCategory"
+			],
+			[
+				"text",
+				"text_initalize"
+			],
+			[
+				"_DEFAUL",
+				"_DEFAULT_SHADOW_THICKNESS"
+			],
+			[
+				"_DEFA",
+				"_DEFAULT_SHADOW_COLOR"
+			],
+			[
+				"fontS",
+				"fontStyle"
+			],
+			[
+				"D",
+				"DEFAULT_NAME"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/views/home/home.html",
+			"settings":
+			{
+				"buffer_size": 23497,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"new",
+				"Tasks: New document"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fomr",
+				"Format: Javascript"
+			],
+			[
+				"fom",
+				"Format: Javascript"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"fomar",
+				"Format: Javascript"
+			],
+			[
+				"fomrat",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indet",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sublme",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"subl",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"JSLint"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/denny/Projects/Personal/portfolio/coopscott",
+		"/Users/denny/Projects/Personal/portfolio/coopscott/client",
+		"/Users/denny/Projects/Personal/portfolio/coopscott/client/views",
+		"/Users/denny/Projects/Personal/portfolio/coopscott/client/views/home"
+	],
+	"file_history":
+	[
+		"/Users/denny/Documents/Dennys.TODO",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-bower-task/node_modules/bower/node_modules/fstream/lib/dir-reader.js",
+		"/Users/denny/Projects/cti/BBiQ/client/www/styles/datetime.css",
+		"/Users/denny/Projects/cti/BBiQ/client/www/scripts/canvas/assets/highLevelObjects/matchstick.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/unit/spec/canvas/assets/highLevelObjects/matchstick.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/unit/spec/canvas/assets/highLevelObjects/matchbox.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/methodOverride.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/main.js",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/recipes.css",
+		"/Users/denny/Projects/cti/BBiQ/client/plugins/de.appplant.cordova.plugin.local-notification/src/android/Receiver.java",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/recipe.css",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/ripple-emulator/node_modules/express/node_modules/connect/lib/middleware/cookieParser.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/e2e/e2e.conf.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/unit/spec/canvas/queue/queue.js",
+		"/Users/denny/Projects/cti/BBiQ/client/README.md",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/Users/denny/Projects/cti/BBiQ/client/config.xml",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/settings.css",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-sass/node_modules/chalk/node_modules/.bin/strip-ansi",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt/node_modules/js-yaml/examples/sample_document.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/angular-scenario/jstd-scenario-adapter.js",
+		"/Users/denny/Projects/cti/BBiQ/client/platforms/ios/build/BBiQ.build/Debug-iphonesimulator/BBiQ.build/Script-304B58A110DAC018002A0835.sh",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/q/queue.js",
+		"/Users/denny/Projects/cti/BBiQ/client/package.json",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/q/q.js",
+		"/Users/denny/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/denny/Projects/cti/BBiQ/client/app/views/cooler.html",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/protractor/node_modules/selenium-webdriver/lib/test/data/click_out_of_bounds.html",
+		"/Users/denny/Projects/cti/BBiQ/client/app/views/fridge.html",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/highLevelObjects/foodItemView.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/controllers/grillcanvas.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/landscape/queue/foodItemQueue.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/highLevelObjects/garbage.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/views/app.html",
+		"/Users/denny/Projects/cti/fishingHole/plugins/ios.json",
+		"/Users/denny/Projects/cti/BBiQ/client/app/index.html",
+		"/Users/denny/Projects/cti/BBiQ/client/app/views/home.html",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/controllers/fridge.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/views/grillcanvas.html",
+		"/Users/denny/Projects/cti/BBiQ/client/app/sounds/fridgeOpen.mp3",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/cordova/NOTICE",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/negate-iife.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/cordova/node_modules/cordova-lib/node_modules/npm/test/tap/noargs-install-config-save.js",
+		"/Users/denny/Projects/cti/BBiQ/client/platforms/android/src/com/ionic/keyboard/IonicKeyboard.java",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-bower-task/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/object/key-of.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-bower-task/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/uuid/benchmark/benchmark-native.c",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/namespace.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/landscape/grill/grillArea.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/landscape/grill/grill.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/karma/node_modules/log4js/examples/smtp-appender.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/app.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-bower-task/node_modules/bower/lib/core/resolvers/FsResolver.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/run.js",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/fridge.css",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/home.css",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-htmlmin/docs/htmlmin-options.md",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/itemSprite.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/lowLevelObjects/shape.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/animation/animations.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/landscape/queue/queueArea.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/highLevelObjects/itemDetails.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/highLevelObjects/plate.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/lowLevelObjects/label.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/e2e/controller/fridge.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/e2e/controller/grillcanvas.js",
+		"/Users/denny/Projects/cti/BBiQ/client/TODO",
+		"/Users/denny/Projects/cti/BBiQ/client/test/e2e/controller/protip.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/e2e/controller/recipe.js",
+		"/Users/denny/Projects/cti/BBiQ/client/test/e2e/controller/settings.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/actionText.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/ripple-emulator/node_modules/request/tests/test-oauth.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/angular-timer/examples/plain-javascript.html",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/protractor/scripts/print_logs.sh",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/karma-coverage/node_modules/istanbul/node_modules/js-yaml/test/unsupported/invalid-tag-1.loader-error",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/cordova/node_modules/cordova-lib/node_modules/bplist-parser/test/iTunes-small.bplist",
+		"/Users/denny/Projects/cti/BBiQ/client/app/styles/fridge.css",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/angular/angular-csp.css",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/highLevelObjects/foodItem.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/controllers/footer.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/jquery-ui/ui/jquery.ui.widget.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/middleLevelObjects/shapeWithLabel.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/highLevelObjects/matchbox.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/label.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/cordova/LICENSE",
+		"/Users/denny/Projects/cti/BBiQ/client/Gruntfile.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/highLevelObjects/matchstick.js",
+		"/Users/denny/Projects/cti/BBiQ/client/coverage/PhantomJS 1.9.7 (Mac OS X)/scripts/canvas/assets/highLevelObjects/matchbox.js.html",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/matchdep/lib/matchdep.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt/node_modules/iconv-lite/test/main-test.js",
+		"/Users/denny/Projects/cti/BBiQ/client/www/scripts/canvas/assets/shape.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-jshint/node_modules/jshint/data/non-ascii-identifier-part-only.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/karma/node_modules/http-proxy/test/core/simple/test-http-head-response-has-no-body-end.js",
+		"/Users/denny/Projects/cti/BBiQ/client/www/views/fridge.html",
+		"/Users/denny/Projects/cti/BBiQ/client/www/styles/fridge.css",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/protractor/node_modules/selenium-webdriver/lib/test/data/frame_switching_tests/deletingFrame.html",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/karma/lib/middleware/strip_host.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/angular-timer/examples/angularjs-polling-timer.html",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/.bin/autoprefixer",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/animate.css/source/fading_entrances/fadeInDown.css",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-bower-task/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/Users/denny/Projects/cti/BBiQ/client/ionic.project",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/shape.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/animation/movement.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/landscape/header.js",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/main.css",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/.bin/mocha",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/animation/anim.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas/assets/people.js",
+		"/Users/denny/Projects/cti/BBiQ/client/app/styles/grillcanvas.css",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/grillcanvas.css",
+		"/Users/denny/Projects/cti/BBiQ/client/.tmp/styles/grill.css",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-bower-task/node_modules/bower/lib/core/resolvers/GitResolver.js",
+		"/Users/denny/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/denny/Projects/cti/BBiQ/client/.gitignore",
+		"/Users/denny/Projects/cti/BBiQ/client/app/bower_components/angular-timer/bower_components/bootstrap/less/labels-badges.less",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/cordova/node_modules/cordova-lib/node_modules/rc/LICENSE.APACHE2",
+		"/Users/denny/Projects/cti/BBiQ/admin/app/scripts/app.js",
+		"/Users/denny/Projects/cti/BBiQ/server/app.js",
+		"/Users/denny/Projects/cti/BBiQ/server/config/session.js",
+		"/Users/denny/Projects/cti/BBiQ/admin/bower_components/bootstrap/less/labels.less",
+		"/Users/denny/Projects/cti/BBiQ/admin/bower_components/bootstrap/LICENSE",
+		"/Users/denny/Projects/cti/BBiQ/admin/dist/fonts/glyphicons-halflings-regular.svg",
+		"/Users/denny/Projects/cti/BBiQ/admin/package.json",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/grunt-protractor-runner/tasks/protractor_runner.js",
+		"/Users/denny/Projects/cti/BBiQ/client/node_modules/.bin/protractor",
+		"/Users/denny/Projects/cti/BBiQ/server/api/models/Protip.js",
+		"/Users/denny/Projects/cti/BBiQ/admin/app/scripts/directives/protips.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/denny/Projects/cti/BBiQ/client/app/scripts/canvas"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dropMatch",
+			"state.go",
+			"triggerActionText",
+			"Garbage",
+			"garbage",
+			"Garbage",
+			"garbage",
+			"Garbage",
+			"initX",
+			"5",
+			"nextAction",
+			"debugger",
+			"5",
+			"Matchbox",
+			"}]);\n",
+			"	\n",
+			"matchbox",
+			"_container",
+			"_checkContainerObject",
+			"fontColor",
+			"fadeOutLeft",
+			"animation",
+			"duration",
+			"animation",
+			"Shrink",
+			"verticalDistance",
+			"options.duration",
+			"Shrink",
+			"From",
+			"height",
+			"pos.toLowerCase()",
+			"TweenLite",
+			"timeInMilli",
+			".5",
+			"_animationVerifications",
+			"_animationsPrivate",
+			"__animationsPrivate",
+			"animationsPrivate",
+			"bounceDown",
+			"timeInMilli",
+			"_checkTimeInMilli",
+			"prepareAnimation",
+			"checkRequirements",
+			"animationVerifications",
+			"animationsPrivate",
+			"subl",
+			"Subl",
+			"subl",
+			"alpha:options.endAlpha",
+			"width",
+			"length",
+			"Label",
+			"currentSize",
+			"background",
+			"actualCircle",
+			"fontSize",
+			"this",
+			"parent",
+			"this",
+			"_label",
+			"_build",
+			"background",
+			"_build",
+			"Label",
+			"start",
+			"text",
+			"vim"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/views/home/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									"S",
+									"mode_insert",
+									null
+								],
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 295.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "coopscott.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"matchstick",
+				"app/scripts/canvas/assets/highLevelObjects/matchstick.js"
+			],
+			[
+				"main",
+				"app/scripts/canvas/main.js"
+			],
+			[
+				"movem",
+				"app/scripts/canvas/animation/movement.js"
+			],
+			[
+				"recipes.css",
+				".tmp/styles/recipes.css"
+			],
+			[
+				"recipes.",
+				".tmp/styles/recipes.css"
+			],
+			[
+				"cooler.html",
+				"app/views/cooler.html"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"queue.js",
+				"app/bower_components/q/queue.js"
+			],
+			[
+				"cooler.js",
+				"app/scripts/controllers/cooler.js"
+			],
+			[
+				"fooditem",
+				"app/scripts/canvas/assets/highLevelObjects/foodItemView.js"
+			],
+			[
+				"grillcanvas.js",
+				"app/scripts/controllers/grillcanvas.js"
+			],
+			[
+				"grillcanvas",
+				"app/views/grillcanvas.html"
+			],
+			[
+				"index.html",
+				"app/index.html"
+			],
+			[
+				"app.js",
+				"app/scripts/app.js"
+			],
+			[
+				"app.html",
+				"app/views/app.html"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"fridge.html",
+				"app/views/fridge.html"
+			],
+			[
+				"fridge.js",
+				"app/scripts/controllers/fridge.js"
+			],
+			[
+				"home.html",
+				"app/views/home.html"
+			],
+			[
+				"todo",
+				"TODO"
+			],
+			[
+				"plate.js",
+				"app/scripts/canvas/assets/highLevelObjects/plate.js"
+			],
+			[
+				"itemdet",
+				"app/scripts/canvas/assets/highLevelObjects/itemDetails.js"
+			],
+			[
+				"frideg",
+				"app/views/fridge.html"
+			],
+			[
+				"food",
+				"app/scripts/canvas/assets/highLevelObjects/foodItemView.js"
+			],
+			[
+				"action",
+				"app/scripts/canvas/assets/actionText.js"
+			],
+			[
+				"fooditemque",
+				"app/scripts/canvas/landscape/queue/foodItemQueue.js"
+			],
+			[
+				"label",
+				"app/scripts/canvas/assets/label.js"
+			],
+			[
+				"grill",
+				"app/views/grillcanvas.html"
+			],
+			[
+				"matchbox",
+				"test/unit/spec/canvas/assets/highLevelObjects/matchbox.js"
+			],
+			[
+				"matchbox.js",
+				"test/unit/spec/canvas/assets/highLevelObjects/matchbox.js"
+			],
+			[
+				"main.js",
+				"app/scripts/canvas/main.js"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"shape",
+				"app/scripts/canvas/assets/lowLevelObjects/shape.js"
+			],
+			[
+				"fridge",
+				"app/scripts/controllers/fridge.js"
+			],
+			[
+				"label.js",
+				"app/scripts/canvas/assets/label.js"
+			],
+			[
+				"shape.js",
+				"app/scripts/canvas/assets/shape.js"
+			],
+			[
+				"app",
+				"client/app/scripts/app.js"
+			],
+			[
+				"header",
+				"client/app/scripts/canvas/landscape/header.js"
+			],
+			[
+				"grillv",
+				"client/.tmp/styles/grillcanvas.css"
+			],
+			[
+				"timer",
+				"client/app/scripts/canvas/timer/timer.js"
+			],
+			[
+				"fridge.css",
+				"client/app/styles/fridge.css"
+			],
+			[
+				"recipesjs",
+				"client/app/scripts/controllers/recipes.js"
+			],
+			[
+				"recipes.js",
+				"client/app/scripts/controllers/recipes.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/cti/dashboard/dashboard.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

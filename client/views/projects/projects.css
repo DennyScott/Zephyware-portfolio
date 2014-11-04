@@ -96,7 +96,7 @@
 }
 
 #game-content{
-	display:none;
+	
 	-webkit-transition: color 500ms ease;
 	-moz-transition: color 500ms ease;
 	-ms-transition: color 500ms ease;
@@ -114,6 +114,7 @@
 }
 
 #web-content{
+	display:none;
 	-webkit-transition: color 500ms ease;
 	-moz-transition: color 500ms ease;
 	-ms-transition: color 500ms ease;
